@@ -113,7 +113,7 @@ main img {
   font-weight: bold;
 }
 
-h2 {
+.text-inf h2 {
   color: #E65463;
   font-size: 108px;
   line-height: 100px;
@@ -156,7 +156,7 @@ h2 {
 .juventude h1 {
   margin-top: 15px;
   color: #E65463;
-  font-size: 26px;
+  font-size: 35px;
 }
 
 .juventude p {
@@ -238,7 +238,8 @@ h2 {
 
 .flip-card-back h2 {
   color: #E65463;
-  font-size: 26px;
+  font-size: 30px;
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -246,6 +247,7 @@ h2 {
   max-width: 250px;
   color: #E65463;
   font-size: 20px;
+  font-style: italic;
   font-weight: bold;
   text-align: center;
   margin-top: 5px;
@@ -265,9 +267,6 @@ h2 {
   transform: rotateY(-180deg);
 }
 
-
-
-
 footer {
   width: 100%;
   height: 500px;
@@ -275,3 +274,83 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+.align-pt2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-pt2 img{
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.facul {
+  margin-left: 40px;
+  margin-top: -320px;
+}
+
+.facul h1 {
+  margin-top: 15px;
+  color: #E65463;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.facul p {
+  margin-top: 15px;
+  max-width: 400px;
+  text-align: justify;
+  color: #E65463;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Inter", serif;
+  margin-bottom: 50px;
+}
+
+.teatro {
+  width: 622px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 380px;
+  background-color: white;
+  position: absolute;
+  margin-top: 480px;
+}
+
+.teatro h1 {
+  margin-top: 45px;
+  color: #E65463;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.teatro p {
+  margin-top: 15px;
+  max-width: 450px;
+  text-align: justify;
+  color: #E65463;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Inter", serif;
+  margin-bottom: 50px;
+}
+
+.text-pt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
