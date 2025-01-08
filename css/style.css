@@ -113,7 +113,7 @@ main img {
   font-weight: bold;
 }
 
-h2 {
+.text-inf h2 {
   color: #E65463;
   font-size: 108px;
   line-height: 100px;
@@ -238,7 +238,8 @@ h2 {
 
 .flip-card-back h2 {
   color: #E65463;
-  font-size: 26px;
+  font-size: 30px;
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -246,6 +247,7 @@ h2 {
   max-width: 250px;
   color: #E65463;
   font-size: 20px;
+  font-style: italic;
   font-weight: bold;
   text-align: center;
   margin-top: 5px;
