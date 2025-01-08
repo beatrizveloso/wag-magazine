@@ -6,4 +6,5 @@ Com um design moderno e responsivo, a página destaca a versatilidade e o impact
 🎯 Objetivo: Proporcionar aos fãs uma experiência imersiva, visualmente atraente e informativa sobre a trajetória de um dos maiores talentos do Brasil.
 
 Sinta-se à vontade para explorar, contribuir ou dar feedback! 🚀
-![image](https://github.com/user-attachments/assets/af91f44b-9c17-49f2-beba-5e438f6ff527)
+![image](https://github.com/user-attachments/assets/058f5d09-e572-4a51-a493-44509f10b556)
+
