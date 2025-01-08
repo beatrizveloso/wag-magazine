@@ -186,11 +186,11 @@ main img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 1650px;
+  height: 1450px;
 }
 
 .conteudo {
-  padding-top: 150px;
+  padding-top: 50px;
   height: 65vh;
   display: flex;
   align-items: center;
@@ -315,15 +315,16 @@ footer {
 }
 
 .teatro {
-  width: 622px;
+  width: 600px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 380px;
   background-color: white;
   position: absolute;
   margin-top: 480px;
+  margin-right: 50px;
 }
 
 .teatro h1 {
@@ -353,4 +354,99 @@ footer {
   align-items: center;
 }
 
+.align-texts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 850px;
+  margin-top: 50px;
+}
 
+.text1,
+.text2,
+.text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text1 h1,
+.text2 h1,
+.text3 h1  {
+  max-width: 300px;
+}
+
+.text1 img,
+.text2 img,
+.text3 img {
+  width: 300px;
+  height: 210px;
+}
+
+.text2 img {
+  margin-top: -160px;
+}
+
+.text3 img {
+  margin-top: -95px;
+}
+
+.text1 h1,
+.text2 h1,
+.text3 h1 {
+  margin-top: 45px;
+  color: #E65463;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-align: justify;
+}
+
+.text1 p,
+.text2 p,
+.text3 p {
+  margin-top: 15px;
+  max-width: 330px;
+  text-align: justify;
+  color: #E65463;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Inter", serif;
+  margin-bottom: 50px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 10s linear infinite;
+  white-space: nowrap;
+  align-items: center;
+  height: 100%;
+}
+
+.carousel-item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #E65463;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
