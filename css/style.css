@@ -69,26 +69,19 @@ main img {
   display: flex;
 }
 
-/* Estilizando a barra de rolagem para navegadores baseados no Webkit (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
   width: 12px;
-  /* Largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-track {
   background: #f2f2f2;
-  /* Cor do fundo da barra de rolagem */
   border-radius: 15px;
-  /* Arredondando as pontas */
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #f5cbd2;
-  /* Rosa claro para a barra de rolagem */
   border-radius: 10px;
-  /* Arredondando as pontas */
   border: 2px solid #f2f2f2;
-  /* Espaçamento entre a barra e o track */
 }
 
 
