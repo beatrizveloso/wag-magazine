@@ -1,5 +1,5 @@
 # Revista Wagner Moura 🌟
-Este projeto antigo é uma página web desenvolvida com HMTMl e CSS, dedicada à trajetória de sucesso do ator Wagner Moura. A revista explora momentos marcantes de sua carreira, desde seus papéis icônicos no cinema e na televisão, como Capitão Nascimento em Tropa de Elite e Pablo Escobar em Narcos, até sua transição para o cenário internacional. 
+Este projeto antigo é uma página web desenvolvida com HTML e CSS, dedicada à trajetória de sucesso do ator Wagner Moura. A revista explora momentos marcantes de sua carreira, desde seus papéis icônicos no cinema e na televisão, como Capitão Nascimento em Tropa de Elite e Pablo Escobar em Narcos, até sua transição para o cenário internacional. 
 
 Com um design moderno e responsivo, a página destaca a versatilidade e o impacto de Wagner Moura no mundo do entretenimento.
 
